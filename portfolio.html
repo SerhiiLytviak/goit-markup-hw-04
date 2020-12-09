@@ -34,10 +34,19 @@
             <address class="header-address">
                 <ul class="address-nav list">
                     <li class="address-nav-item">
-                        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                        <a class="address-nav-link link" href="mailto:info@devstudio.com">
+                            <svg class="mail-logo" width="16" height="12">
+                                <use href="./images/sprite.svg#envelope"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
                     <li class="address-nav-item">
-                        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                        <a class="address-nav-link link" href="tel:+380961111111">
+                            <svg class="phone-logo" width="10" height="16">
+                                <use href="./images/sprite.svg#smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11</a>
                     </li>
                 </ul>
             </address>
@@ -147,24 +156,61 @@
         <!-- CONTACT INFORMATION -->
         <section class="contacts">
             <div class="container">
-                <h2 class="visually-hidden">Контакты</h2>
-                <a class="logo secondary link" href="./index.html" aria-label="логотип сайта" lang="en"><span
-                        class="logo-accent">Web</span>Studio</a>
-                <address>
-                    <ul class="footer-address list">
-                        <li class="footer-address-item">
-                            <!-- Сменил "проспект" на "бульвар", т.к. проспект Леси Украинки в Киеве нет -->
-                            <a class="contacts-map link" href="https://goo.gl/maps/AZEBeKzeeW1Fva8DA" target="_blank"
-                                rel="noopener noreferrer">г. Киев, б-р Леси Украинки, 26</a>
-                        </li>
-                        <li class="footer-address-item">
-                            <a class="link email" href="mailto:info@example.com">info@example.com</a>
-                        </li>
-                        <li class="footer-address-item">
-                            <a class="link phone" href="tel:+380991111111">+38 099 111 11 11</a>
-                        </li>
-                    </ul>
-                </address>
+                <div class="footer-content">
+                    <div class="logo-address">
+                        <h2 class="visually-hidden">Контакты</h2>
+                        <a class="logo secondary link" href="./index.html" aria-label="логотип сайта" lang="en"><span
+                                class="logo-accent">Web</span>Studio</a>
+                        <address>
+                            <ul class="footer-address list">
+                                <li class="footer-address-item">
+                                    <!-- Сменил "проспект" на "бульвар", т.к. проспект Леси Украинки в Киеве нет -->
+                                    <a class="contacts-map link" href="https://goo.gl/maps/AZEBeKzeeW1Fva8DA" target="_blank"
+                                        rel="noopener noreferrer">г. Киев, б-р Леси Украинки, 26</a>
+                                </li>
+                                <li class="footer-address-item">
+                                    <a class="link email" href="mailto:info@example.com">info@example.com</a>
+                                </li>
+                                <li class="footer-address-item">
+                                    <a class="link phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="join">
+                        <p class="join-title">Присоединяйтесь</p>
+                        <ul class="social-networks list">
+                            <li class="social-networks-item">
+                                <a class="social-networks-link" href="#">
+                                    <svg class="social-networks-icon" width="20" height="20">
+                                        <use href="./images/sprite.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-networks-item">
+                                <a class="social-networks-link" href="#">
+                                    <svg class="social-networks-icon" width="20" height="20">
+                                        <use href="./images/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-networks-item">
+                                <a class="social-networks-link" href="#">
+                                    <svg class="social-networks-icon" width="20" height="20">
+                                        <use href="./images/sprite.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-networks-item">
+                                <a class="social-networks-link" href="#">
+                                    <svg class="social-networks-icon" width="20" height="20">
+                                        <use href="./images/sprite.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>
